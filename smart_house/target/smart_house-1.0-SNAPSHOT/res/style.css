@@ -1,0 +1,14 @@
+
+.error {
+    color: #ff0000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background: lightblue;
+    cursor: pointer;
+    color: red;
+}
+
+

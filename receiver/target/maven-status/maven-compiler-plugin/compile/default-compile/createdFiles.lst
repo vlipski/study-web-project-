@@ -1,0 +1,5 @@
+by\pvt\controller\MessageController.class
+by\pvt\Application.class
+by\pvt\repository\MessageRepository.class
+by\pvt\service\MessageService.class
+by\pvt\pojo\Message.class

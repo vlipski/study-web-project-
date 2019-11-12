@@ -1,0 +1,86 @@
+{
+  "className": "by.pvt.controller.myDevicesController.MyDevicesControllerTest",
+  "name": "My Devices Controller",
+  "scenarios": [
+    {
+      "className": "by.pvt.controller.myDevicesController.MyDevicesControllerTest",
+      "testMethodName": "addDeviceValid",
+      "description": "Add device valid",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2039383
+            },
+            {
+              "name": "show devices",
+              "words": [
+                {
+                  "value": "show devices"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 8253961
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 28689508
+            },
+            {
+              "name": "show devices",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "show devices"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1211183
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 100181438
+        }
+      ],
+      "durationInNanos": 100181438,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

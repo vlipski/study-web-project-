@@ -1,0 +1,179 @@
+{
+  "className": "by.pvt.controller.addDeviceController.AddDeviceControllerTest",
+  "name": "Add Device Controller",
+  "scenarios": [
+    {
+      "className": "by.pvt.controller.addDeviceController.AddDeviceControllerTest",
+      "testMethodName": "addDeviceValid",
+      "description": "Add device valid",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 55261669
+            },
+            {
+              "name": "create device",
+              "words": [
+                {
+                  "value": "create device"
+                },
+                {
+                  "value": "DeviceCmd(name\u003dmy_conditioner, serialNumber\u003dcond001, pinCod\u003d1111)",
+                  "argumentInfo": {
+                    "argumentName": "device",
+                    "formattedValue": "DeviceCmd(name\u003dmy_conditioner, serialNumber\u003dcond001, pinCod\u003d1111)"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 268825139
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1326795728
+            },
+            {
+              "name": "add device valid",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "add device valid"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 20523770
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 2521671692
+        }
+      ],
+      "durationInNanos": 2521671692,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "by.pvt.controller.addDeviceController.AddDeviceControllerTest",
+      "testMethodName": "addDeviceInvalid",
+      "description": "Add device invalid",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@5890e879, started on Mon Nov 04 09:49:29 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 3928993
+            },
+            {
+              "name": "create device",
+              "words": [
+                {
+                  "value": "create device"
+                },
+                {
+                  "value": "DeviceCmd(name\u003dmy_conditioner, serialNumber\u003d, pinCod\u003d)",
+                  "argumentInfo": {
+                    "argumentName": "device",
+                    "formattedValue": "DeviceCmd(name\u003dmy_conditioner, serialNumber\u003d, pinCod\u003d)"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 13646495
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 11552400
+            },
+            {
+              "name": "add device invalid",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "add device invalid"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1457386
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 882212299
+        }
+      ],
+      "durationInNanos": 882212299,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

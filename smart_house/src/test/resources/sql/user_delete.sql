@@ -1,0 +1,1 @@
+delete from `smart_house_test`.`user`;

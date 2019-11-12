@@ -1,0 +1,199 @@
+{
+  "className": "by.pvt.controller.signUp.SignUpControllerTest",
+  "name": "Sign Up Controller",
+  "scenarios": [
+    {
+      "className": "by.pvt.controller.signUp.SignUpControllerTest",
+      "testMethodName": "singUpError",
+      "description": "Sing up error",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "web application",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "web application"
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@31ea9581, started on Mon Nov 04 17:28:52 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@31ea9581, started on Mon Nov 04 17:28:52 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2974955
+            },
+            {
+              "name": "before",
+              "words": [
+                {
+                  "value": "before"
+                },
+                {
+                  "value": "UserSignUpCmd(name\u003dvitaly, login\u003dlogin, password\u003dpassword, repeatPassword\u003dpassword)",
+                  "argumentInfo": {
+                    "argumentName": "user",
+                    "formattedValue": "UserSignUpCmd(name\u003dvitaly, login\u003dlogin, password\u003dpassword, repeatPassword\u003dpassword)"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 122409481
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 92657196
+            },
+            {
+              "name": "result",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "result"
+                },
+                {
+                  "value": "signUp",
+                  "argumentInfo": {
+                    "argumentName": "viewName",
+                    "formattedValue": "signUp"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1734365
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 307943403
+        }
+      ],
+      "durationInNanos": 307943403,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "by.pvt.controller.signUp.SignUpControllerTest",
+      "testMethodName": "singUpOk",
+      "description": "Sing up ok",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "web application",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "web application"
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@31ea9581, started on Mon Nov 04 17:28:52 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@31ea9581, started on Mon Nov 04 17:28:52 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1916965
+            },
+            {
+              "name": "before",
+              "words": [
+                {
+                  "value": "before"
+                },
+                {
+                  "value": "UserSignUpCmd(name\u003dvitaly, login\u003dlogin, password\u003dpassword, repeatPassword\u003dpassword)",
+                  "argumentInfo": {
+                    "argumentName": "user",
+                    "formattedValue": "UserSignUpCmd(name\u003dvitaly, login\u003dlogin, password\u003dpassword, repeatPassword\u003dpassword)"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 7256839
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 818847126
+            },
+            {
+              "name": "result",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "result"
+                },
+                {
+                  "value": "signIn",
+                  "argumentInfo": {
+                    "argumentName": "viewName",
+                    "formattedValue": "signIn"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1376002
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 843485909
+        }
+      ],
+      "durationInNanos": 843485909,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

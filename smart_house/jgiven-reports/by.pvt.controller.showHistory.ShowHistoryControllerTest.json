@@ -1,0 +1,93 @@
+{
+  "className": "by.pvt.controller.showHistory.ShowHistoryControllerTest",
+  "name": "Show History Controller",
+  "scenarios": [
+    {
+      "className": "by.pvt.controller.showHistory.ShowHistoryControllerTest",
+      "testMethodName": "showDevicesAndSensors",
+      "description": "Show devices and sensors",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@2794eab6, started on Mon Nov 04 11:16:02 EET 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@2794eab6, started on Mon Nov 04 11:16:02 EET 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 80171960
+            },
+            {
+              "name": "show sensors",
+              "words": [
+                {
+                  "value": "show sensors"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 624388339
+            },
+            {
+              "name": "execute",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute"
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "id",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1281510757
+            },
+            {
+              "name": "show devices and sensors",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "show devices and sensors"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2145387
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 3520483761
+        }
+      ],
+      "durationInNanos": 3520483761,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
