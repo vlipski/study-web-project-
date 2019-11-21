@@ -30,8 +30,6 @@ public class WebMvcConfiguration extends WebMvcConfigurerAdapter {
 
     @Scheduled(fixedDelay = 1000)
     public void scheduleFixedDelayTask() {
-//        System.out.println(
-//                "Fixed delay task - " + System.currentTimeMillis() / 1000);
         messageService.handleMessages();
     }
 
